@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Body */
 body {
   display: flex;
   justify-content: center;
@@ -14,7 +13,6 @@ body {
   padding: 20px;
 }
 
-/* Container */
 .container {
   background-color: #fff;
   padding: 2rem;
@@ -24,12 +22,10 @@ body {
   max-width: 400px;
 }
 
-/* Form */
 form {
   margin: 2rem 0 1rem 0;
 }
 
-/* Input, Select, and Button */
 form select,
 button,
 input {
@@ -46,7 +42,6 @@ form input {
   padding-left: 0.5rem;
 }
 
-/* Dropdown */
 .dropdown {
   display: flex;
   justify-content: space-between;
@@ -60,7 +55,7 @@ form input {
   margin-top: 1rem;
 }
 
-/* Select Container */
+
 .select-container {
   display: flex;
   justify-content: center;
@@ -79,13 +74,11 @@ form input {
   width: auto;
 }
 
-/* Message */
 .msg {
   margin: 2rem 0;
   text-align: center;
 }
 
-/* Button */
 form button {
   height: 3rem;
   background-color: #af4d98;
@@ -99,7 +92,6 @@ form button:hover {
   background-color: #943d80;
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 768px) {
   .container {
     width: 80%;
